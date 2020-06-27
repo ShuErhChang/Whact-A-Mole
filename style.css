@@ -37,3 +37,23 @@ background-image: url(dirt1.png);
   background-image: url('mole1.png');
   background-size : cover;
 }
+@media (max-width: 600px) {
+  .square {
+    width: 50px;
+    height: 50px;
+    background-image: url(dirt2.png);
+  }
+  .grid {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-image: url(dirt2.png);
+    }
+    .right {
+      margin: 20px;
+      font-size: 7px;
+    }
+    .mole {
+      background-image: url('mole2.png');
+    }
+}
