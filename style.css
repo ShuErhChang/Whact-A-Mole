@@ -1,0 +1,39 @@
+.container{
+display: flex;
+background-color: rgb(231, 196, 40);
+width: 100vw;
+height: 100vh;
+justify-content: center;
+align-content: center;
+}
+
+
+.square {
+width: 200px;
+height: 200px;
+background-image: url(dirt1.png);
+}
+
+.right {
+  font-size: 27px;
+  color: rgb(9, 76, 102);
+  justify-content: center;
+  align-content: center;
+  margin: 200px;
+}
+
+.grid {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-content: center;
+margin-top: 100px;
+width: 618px;
+height: 618px;
+background-image: url(dirt1.png);
+}
+
+.mole {
+  background-image: url('mole1.png');
+  background-size : cover;
+}
